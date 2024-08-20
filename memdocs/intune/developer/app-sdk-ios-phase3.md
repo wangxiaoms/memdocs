@@ -413,6 +413,8 @@ The return value of this method tells the SDK if the application must handle the
 
 * If false is returned, the SDK will restart the application after this method returns. The SDK immediately shows a dialog box that tells the user to restart the application.
 
+Note for MAUI apps the Intune SDK hooks are always enabled and there is no need to restart application.
+
 ## Exit Criteria
 
 After you've either configured the build plugin or integrated the command line tool into your build process, validate that it's running successfully:
